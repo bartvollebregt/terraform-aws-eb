@@ -1,2 +1,13 @@
+#IntelliJ
 /*.iml
 /.idea/
+
+# Warning! Do not copy over these ignore, they're just for this (example) repository
+# Terraform
+.tfstate
+.tfstate.backup
+.tfstate.lock.info
+.terraform/
+Dockerrun.aws.json
+Dockerrun.aws.json=
+/*.zip

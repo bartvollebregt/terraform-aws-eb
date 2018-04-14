@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Volumes" : [],
+  "Image": {
+    "Name": "<ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/<NAME>:<VERSION>",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "80"
+    },
+    {
+      "ContainerPort": "5432"
+    }
+  ],
+  "Logging": "/var/log/dockerrun"
+}
